@@ -22,12 +22,12 @@
         <repository>
             <id>maven-project</id>
             <name>Maven Project Repository</name>
-            <url>s3://github.com/vipul-pancholi-iopshub/maven-project</url>
+            <url>s3://test-bucket-iops/release/</url>
         </repository>
         <snapshotRepository>
             <id>my-snapshot-repository</id>
             <name>My Snapshot Repository</name>
-            <url>https://example.com/snapshot-repo</url>
+            <url>s3://test-bucket-iops/snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
