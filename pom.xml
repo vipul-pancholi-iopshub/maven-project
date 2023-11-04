@@ -28,7 +28,15 @@
             <url>s3://test-bucket-iops/snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
-         
+
+    <extensions>
+        <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-s3</artifactId>
+            <version>3.3.3</version> <!-- Use the appropriate version -->
+        </extension>
+    </extensions>
+ 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
