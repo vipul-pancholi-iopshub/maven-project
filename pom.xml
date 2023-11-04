@@ -36,9 +36,7 @@
             <version>3.3.3</version> <!-- Use the appropriate version -->
         </extension>
     </extensions>
-</build>
-
- 
+</build> 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -47,7 +45,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <pluginManagement>
             <plugins>
